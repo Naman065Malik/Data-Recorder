@@ -1,5 +1,5 @@
 const { StatusCodes } = require("http-status-codes");
-const User = require("../model/user.model");
+const User = require("../modules/user/user.model");
 
 const userController = {
   getAllUsers: async (req, res, next) => {
