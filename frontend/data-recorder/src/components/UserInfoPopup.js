@@ -28,6 +28,8 @@ export const UserInfoPopup = () => {
 
   const updateUserInfo = () => {
     if (!userGender || !userPhoneNumber || !userEmail || !userAddress) {
+      console.log("fill all the fields");
+      console.log(userGender, userPhoneNumber, userEmail, userAddress);
       console.log("somethin went wrong..");
     }
     console.log(userGender, userPhoneNumber, userEmail, userAddress);
